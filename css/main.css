@@ -1,0 +1,53 @@
+
+@media screen and (min-width: 760px){
+    #home img{
+        margin-top: 6rem;
+        width: 12rem;
+        display: inline-block;
+    
+    }
+    #home h1{
+        font-family: 'Press Start 2P', cursive;
+        font-size: 2rem;
+    }
+    #home p {
+        font-size: 1.5rem;
+    }
+
+    .button {
+        display: inline-block;
+        border-radius: 2rem;
+        font-family: 'Nerko One', cursive;
+        color: white;
+        font-size: 2rem;
+        padding: 1.6rem;
+        text-decoration: none;
+        background-color: #65958D;
+        margin: 1rem;
+
+    }
+    #logar {
+        position: fixed;
+        top: 0.5rem;
+        right: 2vw;
+    }
+    .aprenda {
+        background-color: #FB7400;
+        display: block;
+        position: relative;
+        left: 50%;
+        margin: 0;
+        font-size: 2.5rem;
+        transform: translateX(-50%);
+        max-width: 50vw;
+        margin-bottom: 2.8vh;
+        padding: 1.5rem;
+        background-image: url('../images/planejamento.png');
+        background-size: 4rem;
+        background-position: 2rem;
+        background-repeat: no-repeat;
+        
+    }
+
+
+}

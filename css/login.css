@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: right;
+    background-color: #467E7A;
+
+}
+#seta {
+    position: fixed;
+    top: 1.2rem;
+    left: 0;
+}
+#logo {
+    padding: 1rem;
+}
+header h2{
+    display: inline-block;
+    font-size: 1.3rem;
+    position: relative;
+    transform: translateY(-50%);
+    font-family: 'Press Start 2P', cursive;
+}
+header img {
+    width: 3rem;
+    margin: 0 2rem;
+}
+body {
+    background-color: #83AAA9;
+}
+
+main {
+    font-family: 'Nerko One', cursive;
+    position: relative;
+    top: 3rem;
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding: 2.3rem;
+    max-width: 25rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+.form {
+    font-size: 1.1rem;
+    margin-top: 1.2rem;
+    width: 70%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 1rem;
+    border: none;
+    background-color: #094b451f;
+    border-radius:0.7rem;
+}
+.submit{
+    border: none;
+    font-family: 'Nerko One', cursive;
+    font-size: 1.5rem;
+    text-align:center;
+    background-color: #467E7A;
+    transition: 0.8s;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: #094B46;
+    color: white;
+}
+
+
+main a{
+    color: #094B46;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    transition: 0.8s;
+    padding-right: 0.8rem;
+}
+
+main a:hover {
+    color: black;
+}
