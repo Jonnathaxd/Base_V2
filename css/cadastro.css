@@ -16,6 +16,7 @@ header {
 #logo {
     padding: 1rem;
 }
+
 header h2{
     display: inline-block;
     font-size: 1.3rem;
@@ -34,7 +35,7 @@ body {
 main {
     font-family: 'Nerko One', cursive;
     position: relative;
-    top: 3rem;
+    top: 1.5rem;
     background-color: white;
     width: 50%;
     height: 50%;
