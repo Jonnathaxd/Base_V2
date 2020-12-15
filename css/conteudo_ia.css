@@ -16,6 +16,7 @@ header h2{
     position: relative;
     transform: translateY(-50%);
     font-family: 'Press Start 2P', cursive;
+    margin: 0;
 }
 header img {
     width: 3rem;
@@ -23,7 +24,7 @@ header img {
 }
 
 #logo {
-    padding: 1rem;
+    padding: 2rem;
 }
 #top{
     text-align: center;
@@ -58,16 +59,16 @@ td,tr{
     border: 1px solid black;
 }
 #tabela{
-    text-align: center;
+    text-align: justify;
     font-family: "Press Start 2P", "cursive";
     font-size: 10vw;
     border: 1px solid black;
-    width: 80%;
+    width: 100%;
 }
 nav {
     position: fixed;
-    top: 0;
-    margin-left: 3rem;
+    top: -0.2rem;
+    margin-left: 2rem;
 }
 nav li{
     list-style: none;
@@ -79,7 +80,7 @@ nav li{
     font-family: 'Nerko One', cursive;
     color: white;
     font-size: 2rem;
-    padding: 2vw;
+    padding: 1.5rem;
     text-decoration: none;
     background-color: #65958D;
     margin: 1rem;
@@ -94,7 +95,7 @@ nav li{
     font-size: 2rem;
     max-width: 50vw;
     margin-bottom: 2.8vh;
-    padding: 2vw;
+    padding: 1.5rem;
 }
 .home:hover {
     background-color: #AA7939;
@@ -136,6 +137,9 @@ article li {
 hr {
     margin: 2rem 0 2rem 0;
 }
+h2 {
+    margin: 2rem 0 2rem 0;
+}
 footer {
     padding: 1rem; 
     text-align: center;
@@ -164,8 +168,24 @@ footer {
     line-height: 1.2rem;
 }
 
-table, td {
-    font-size: 1rem;
-    padding: 1rem;
+ td {
+     font-family: 'Nerko One', cursive;;
+    font-size: 1.5rem;
+    padding: 1.5rem;
 }
-
+.conclu {
+    padding: 2rem;
+    border-radius: 2rem;
+    border: 3px dashed black;
+    text-indent: 2rem;
+    font-family: 'Nerko One', cursive;
+    margin: 1rem;
+}
+.conclu p {
+    padding: 0.2rem;
+}
+.conclu h4 {
+    margin: 0.5rem 0 1rem 0;
+    font-family: "Press Start 2P", "cursive";
+    font-size: 1.5rem
+}
