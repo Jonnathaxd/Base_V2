@@ -20,11 +20,22 @@ header h2{
 }
 header img {
     width: 3rem;
-    margin: 0 2rem;
+    margin: 0 1.5rem;
 }
-
+#botao_nav{
+    display: none;
+}
 #logo {
     padding: 2rem;
+}
+nav {
+    position: fixed;
+    top: -0.2rem;
+    margin-left: 2rem;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
 }
 #top{
     text-align: center;
@@ -65,15 +76,7 @@ td,tr{
     border: 1px solid black;
     width: 100%;
 }
-nav {
-    position: fixed;
-    top: -0.2rem;
-    margin-left: 2rem;
-}
-nav li{
-    list-style: none;
-    display: inline-block;
-}
+
 .button {
     display: inline-block;
     border-radius: 2rem;
@@ -188,4 +191,139 @@ footer {
     margin: 0.5rem 0 1rem 0;
     font-family: "Press Start 2P", "cursive";
     font-size: 1.5rem
+}
+
+@media screen and (max-width: 1032px) and (max-height: 1024px){
+    * {
+        margin: 0;
+        padding: 0;
+        font-size: 3vw;
+    }
+    header {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        background-color: #467E7A;
+    }
+    header h2{
+        border: 5px dashed black;
+        border-radius:1rem;
+        padding: 2rem;
+        display: block;
+        font-size: 1.5rem;
+        position: relative;
+        transform: none;
+        margin: 0;
+    }
+    header img {
+        display: none;
+    }
+    
+    #logo {
+        padding: 2rem;
+    }
+    #navega {
+        display: none;
+    }
+    nav {
+        position: relative;
+        padding: 0;
+        margin: 0;
+    }
+    nav li{ 
+        display: inline-block;
+        width: 100%;
+        list-style: none;
+
+    }
+    nav li a {
+        width: 100%;
+        
+    }
+    #botao_nav {
+        width: 100%;
+        border-radius:1rem;
+        display: inline-block;
+        border: none;
+        background-color:  #65958d;
+        color: white;
+        box-sizing: border-box;
+        font-size: 2.8rem;
+        font-family: 'Nerko One', cursive;
+        padding: 1rem;
+        background-image: url('../images/menu-mobile.png');
+        background-repeat: no-repeat;
+        background-size: 4rem ;
+        background-position: 4rem;
+    }
+    .button {    
+        display: inline-block;
+        border-radius: 1rem;
+        color: white;
+        font-size: 2rem;
+        padding: 1rem;
+        margin: 2vw 0 0vw 0;
+        transition: 0.8s;
+        list-style: none;
+        box-sizing: border-box;
+
+    }
+    .home { 
+        max-width: none;
+        font-size: 2rem;
+        margin: 2vw 0 2vw 0;
+        background-color: #FB7400;
+    }
+    #top{
+        text-align: center;
+        color:white;
+        padding-top: 0;
+
+        font-size: 6rem;
+    }
+    #top_fundo{
+        padding: 6rem;
+    }
+    #top_fundo h1 {
+        font-size: 3rem;
+        display: inline-block;
+        width: 100%;
+    }
+    article {
+        max-width:100%;
+        width:100%;
+        margin: 0;
+        padding: 0;
+    }
+    .content {
+        padding: 2rem;
+        max-width: 100%;
+    }
+    .content p {
+        text-align: justify;
+        line-height: 1.8rem;
+        font-size: 1.3rem;
+    }
+    hr {
+        margin:2rem;
+    }
+    article h2 {
+        font-size: 2rem;
+    }
+    article p, strong,li,h3 {
+        font-size: 1.8rem;
+    }
+    
+    #criadores {
+        font-size: 1.8rem;
+
+    }
+    .fun {
+        font-size: 1.8rem;
+    }
+    #icone {
+        width: 9rem;
+        height: 9rem;
+        background-size: 7rem;
+    }
 }

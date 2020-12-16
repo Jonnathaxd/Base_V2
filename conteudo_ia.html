@@ -20,8 +20,10 @@
             
         </div>
             <nav>
-                <ul>
-                        
+                <button id ='botao_nav' onclick="nav_menu_on()">
+                    Menu
+                </button>
+                <ul id='navega'>   
                     <li>
                         <a href="./login.html" class="button">Login</a>
                     </li>
@@ -45,7 +47,7 @@
             <div class='content'>
                 <p>
                     A pergunta em questão se torna um pouco relativa pois cada indivíduo pode ter pontos de vistas diferentes...
-                    Em nosso ponto de vista a tecnologia que deve impactar a sociedade nos próximos anos será a Inteligência Artificial, mas por quê?<br>
+                    Em nosso ponto de vista a tecnologia que deve impactar a sociedade nos próximos anos é a Inteligência Artificial, mas por quê?
                 </p>
                 <p>
                     Para responder essa pergunta devemos primeiro entender o que é a inteligência artificial e quais suas peculiaridades, benefícios e desvantagens.
@@ -53,12 +55,7 @@
             </div>
             <hr>
             <h2>O que é inteligência artificial?</h2>
-            <p>Podemos definir inteligência artificial, no grosso modo, como a capacidade das máquinas de pensarem como seres humanos: aprender, perceber e decidir quais caminhos seguir, de forma racional, diante de determinadas situações. Até então, os computadores precisavam de três grandes pilares evoluir da computação simples para a atual, de inteligência artificial:</p>
-            <ul>
-                <li>Bons modelos de dados para classificar, processar e analisar;</li>
-                <li>Acesso a grande quantidade de dados não processados;</li>
-                <li>Computação potente com custo acessível para processamento rápido e eficiente.</li>
-            </ul>
+            <p>Podemos definir inteligência artificial, no grosso modo, como a capacidade das máquinas de pensarem como seres humanos, de forma racional, diante de determinadas situações.</p>
             <p>
                 O termo Inteligência Artificial não é tão recente como parece. Em 1956 o professor John McCarthy criou a expressão para referir-se à capacidade de as máquinas resolverem problemas que, até então, só poderiam ser solucionados por humanos.
             </p>
@@ -164,25 +161,41 @@
                 </p>
                 <p>
                     Algumas marcas de celulares já implementaram esse
-                    tipo de tecnologia em seus aparelhos, a IA aprendia quais aplicativos eram utilizados a quais horas do dia e os colocava a frente de outros, para que o usuário não perdesse tempo o procurando. Em eletro domésticos viável na hora de fazer as compras, pois
+                    tipo de tecnologia em seus aparelhos, a IA aprendia quais aplicativos eram utilizados a quais horas do dia e os colocava a frente de outros, para que o usuário não perdesse tempo o procurando. 
+                </p>
+                <p>
+                    Em eletro domésticos viável na hora de fazer as compras, pois
                     a IA poderia ver quais os produtos o usuário consome, e caso ele faltasse, compraria para ele, já que ela também possui uma conexão a rede.
                 </p>
             </div>
             <div class='geova conclu'>
                 <h4>Geova Jonnatha:</h4>
-
+                <p>
+                    Podemos entender que a inteligência artificial já é um grande impactador da sociedade, porém nota-se que ainda está em desenvolvimento, mesmo assim ela já é capaz de entender e aprender constantemente.
+                </p>
+                <p>
+                    Hoje, a inteligência artificial já é um grande diferencial em múltiplas áreas da sociedade, um motorista, por exemplo, já pode se beneficiar de uma rota de trânsito menos congestionada usando um GPS, poupando assim seu tempo, um jovem pode corrigir sua escrita errada com um corretor e um comprador pode achar exatamente o que estava procurando.
+                </p>
+                <p>
+                    Imagine então daqui há um tempo, máquinas instruídas e inteligentes o suficiente para detectar qualquer doença em questão de minutos, robôs capazes de acertar exatamente o corte e a retirarada de um tumor, hoje parece coisa de louco, porém são fatores que podem mudar completamente a realidade de todo o mundo.
+                </p>
             </div>
             <div class='euber conclu'>
                 <h4>Euber Augustus:</h4>
-            </div>           
+                <p>
+                    Diante do que temos visto na sociedade atual, a inteligência artificial (I.A) não só é uma tecnologia que tem um potencial modificador
+                    drástico do nosso futuro, como também já é bem atuante no presente. Mas, vale ressaltar a importância da responsabilidade ao 
+                    atuar com tecnologias de I.A, visto que ela pode ser tanto benéfica como também maléfica. </p>
+                <br/>
+                    <p>Aqui vou elencar alguns exemplos de tecnologia usando I.A que serão decisivas e moldaram nosso futuro, são elas:</p>
+                    <ul>
+                        <li>Automação na hora de comprar objetos de utilidade básica, tais como: Papel Higiênico, Desodorante, Pasta de dente e etc.</li>
+                        <li>Chatbots, esses já são super presentes na nossa atualidade e que é basicamente I.A pura aplicada aos negócios.</li>
+                        <li>Automação da dirigibilidade, a criação de carros autônomos está cada vez mais acentuada dentro da nossa sociedade.</li>
+                    </ul>
+                    <p>Inteligência artificial estará em 90% dos meios de tecnologia quiçá todos. I.A não só moldará o futuro como também já molda nosso presente!</p>
+            </div>                 
         </article>
-        
-
-            
-
-        <p class="padrao">
-            Olá XD! Essa página foi criada pelos alunos Euber, Geova e Marcelo
-       </p>
     </main>
     <footer>
         <div id='icone'>
@@ -199,5 +212,18 @@
             Publicado em 14 de dezembro de 2020.
         </div>
     </footer>
+    <script>
+        menu = false;
+        function nav_menu_on(){
+            if (!menu){
+                menu = true;
+                document.getElementById('navega').style.display = 'block';
+            }
+            else {
+                menu = false;
+                document.getElementById('navega').style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>
