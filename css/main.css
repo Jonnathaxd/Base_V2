@@ -31,6 +31,9 @@
         top: 0.5rem;
         right: 2vw;
     }
+    #logar a {
+        width: 200px;
+    }
     .aprenda {
         background-color: #FB7400;
         display: block;
