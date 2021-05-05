@@ -10,7 +10,7 @@
 
 # 📋 Sobre
 
-<p>Saber infinito é uma aplicação educativa para aprender tudo sobre inteligência artificial :)</p>
+<p>Saber infinito é uma aplicação pessoal educativa para aprender tudo sobre inteligência artificial :)</p>
 
 ---
 
